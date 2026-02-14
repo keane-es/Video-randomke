@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Random</title>
+</head>
+<body>
+  <script>
+    const videos = [
+      "https://www.tiktok.com/@keane_es/video/7603508096220106004",
+      "https://www.tiktok.com/@keane_es/video/7600097735856966933",
+      "https://www.tiktok.com/@keane_es/video/7598273616848915719"
+    ];
+
+    const random = Math.floor(Math.random() * videos.length);
+    window.location.href = videos[random];
+  </script>
+</body>
+</html>
